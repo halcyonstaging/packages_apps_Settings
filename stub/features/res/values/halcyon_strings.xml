@@ -337,4 +337,7 @@
         Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
     </string>
 
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
 </resources>
