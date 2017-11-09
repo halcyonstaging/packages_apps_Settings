@@ -23,4 +23,7 @@
 
     <!-- Radio info -->
     <string name="radio_info_title">Radio info</string>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
 </resources>
