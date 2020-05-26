@@ -149,4 +149,8 @@
     <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
     <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
 
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+
 </resources>
