@@ -21,4 +21,6 @@
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
 
+    <!-- Radio info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
