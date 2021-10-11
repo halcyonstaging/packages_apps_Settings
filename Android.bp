@@ -106,6 +106,7 @@ android_library {
         "settings-logtags",
         "settings-telephony-protos-lite",
         "statslog-settings",
+        "halcyon-preference-lib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
