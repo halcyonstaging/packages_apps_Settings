@@ -74,4 +74,18 @@
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
 
+    <!-- Status bar category -->
+    <string name="cust_statusbar_category">Status bar</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network speed</string>
+    <string name="network_traffic_summary">Show network speed indicator in status bar</string>
+    <string name="network_traffic_toggle_title">Show Network speed indicator</string>
+    <string name="network_traffic_settings_summary">Display the current network traffic levels in the status bar</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <string name="network_traffic_units_bits" translatable="false">kbps, Mbps, Gbps</string>
+    <string name="network_traffic_units_bytes" translatable="false">kB/s, MB/s, GB/s</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
 </resources>
