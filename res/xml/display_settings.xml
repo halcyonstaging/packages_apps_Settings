@@ -108,6 +108,12 @@
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
 
         <Preference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.halcyon.networktraffic.NetworkTrafficSettings" />
+
+        <Preference
             android:key="icon_manager"
             android:title="@string/icon_manager_title"
             android:summary="@string/icon_manager_summary">
