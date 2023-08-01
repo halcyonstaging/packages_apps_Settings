@@ -302,4 +302,8 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 
+    <!-- Screen lock settings -->
+    <string name="screen_lock_settings_title">Screen lock security settings</string>
+    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
+
 </resources>
