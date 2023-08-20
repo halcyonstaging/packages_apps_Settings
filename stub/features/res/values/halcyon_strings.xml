@@ -13,4 +13,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Ignore window secure -->
+    <string name="laboratory_ignore_window_secure_title">Ignore screenshot restricted</string>
+    <string name="laboratory_ignore_window_secure_summary">Allow taking screenshots from restricted window like Incognito Mode.</string>
+
 </resources>
