@@ -48,6 +48,12 @@
         settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController" />
 
     <Preference
+        android:key="volume_button_cust"
+        android:title="@string/volume_button_cust_title"
+        android:fragment="com.android.settings.halcyon.battery.VolumeBtnSettings"
+        settings:searchable="false" />
+
+    <Preference
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/system_navigation_title"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
