@@ -35,11 +35,15 @@
 
     <!-- Status bar category -->
     <string name="volume_button_cust_title">Volume button settings</string>
-    
+
     <!-- Volume Cursor -->
     <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
     <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- volume dialog -->
+    <string name="volume_panel_on_left_title">Show panel on left</string>
+    <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
 
 </resources>
