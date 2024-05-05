@@ -39,4 +39,9 @@
     <string name="navbar_compact_layout_title">Compact layout</string>
     <string name="navbar_compact_layout_summary">Use a compact layout in the navigation bar</string>
 
+    <!-- Navbar settings -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
+
 </resources>
