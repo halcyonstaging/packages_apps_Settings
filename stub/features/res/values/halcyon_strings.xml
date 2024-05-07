@@ -38,6 +38,10 @@
     <string name="navbar_compact_layout_title">Compact layout</string>
     <string name="navbar_compact_layout_summary">Use a compact layout in the navigation bar</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
     <string name="assisted_gps">Use assisted GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
