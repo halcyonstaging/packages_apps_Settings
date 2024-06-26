@@ -100,7 +100,7 @@
                 "com.android.settings.privacy.CameraExtensionsFallbackPreferenceController" />
 
         <!-- Ignore secure window feature  -->
-        <com.android.settings.halcyon.preference.SecureSettingSwitchPreference
+        <com.android.settings.halcyon.preference.GlobalSettingSwitchPreference
            android:key="window_ignore_secure"
            android:title="@string/ignore_window_secure_title"
            android:summary="@string/ignore_window_secure_summary"
