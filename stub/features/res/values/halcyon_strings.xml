@@ -55,4 +55,11 @@
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 
+    <!-- Low Gamma -->
+    <string name="low_gamma_title">Gamma correction</string>
+    <string name="low_gamma_summary">Enable or disable gamma correction for low brightness.</string>
+    <string name="systemui_restart_title">Restart SystemUI</string>
+    <string name="systemui_restart_message">Do you want to restart SystemUI to apply changes?</string>
+    <string name="ok">Restart</string>
+    <string name="cancel">Cancel</string>
 </resources>
