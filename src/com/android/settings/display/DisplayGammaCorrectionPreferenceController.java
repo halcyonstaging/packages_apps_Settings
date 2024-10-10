@@ -29,7 +29,7 @@ import android.content.ComponentName;
 import android.os.IBinder;
 import android.view.WindowManagerGlobal;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.R;
 
@@ -50,13 +50,13 @@ public class DisplayGammaCorrectionPreferenceController extends BasePreferenceCo
     @Override
     public void updateState(Preference preference) {
         boolean isGammaCorrectionEnabled = SystemProperties.getBoolean(PROP_GAMMA_CORRECTION_ENABLED, false);
-        ((SwitchPreference) preference).setChecked(isGammaCorrectionEnabled);
+        ((SwitchPreferenceCompat) preference).setChecked(isGammaCorrectionEnabled);
     }
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (KEY_TOGGLE_GAMMA.equals(preference.getKey())) {
-            boolean isGammaCorrectionEnabled = ((SwitchPreference) preference).isChecked();
+            boolean isGammaCorrectionEnabled = ((SwitchPreferenceCompat) preference).isChecked();
             SystemProperties.set(PROP_GAMMA_CORRECTION_ENABLED, Boolean.toString(isGammaCorrectionEnabled));
             showSystemUiRestartDialog(mContext);
             return true;

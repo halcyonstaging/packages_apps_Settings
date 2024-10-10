@@ -47,7 +47,7 @@
             settings:controller="com.android.settings.display.EvenDimmerPreferenceController"/>
 
         <!-- Low Gamma -->
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="toggle_gamma"
             android:title="@string/low_gamma_title"
             android:summary="@string/low_gamma_summary"
