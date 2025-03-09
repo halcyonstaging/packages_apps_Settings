@@ -37,7 +37,11 @@ public class BasebandVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public int getAvailabilityStatus() {
-        return !Utils.isWifiOnly(mContext) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        String baseBands = SystemProperties.get(BASEBAND_PROPERTY, "");
+        if (Utils.isWifiOnly(mContext) || baseBands.isEmpty() || baseBands.equals(mContext.getString(R.string.device_info_default))) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        return AVAILABLE;
     }
 
     @Override
