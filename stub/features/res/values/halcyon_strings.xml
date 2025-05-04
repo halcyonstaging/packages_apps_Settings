@@ -250,4 +250,9 @@
     <string name="lockscreen_battery_info_title">Charging Info on Lock Screen</string>
     <string name="lockscreen_battery_info_summary">Show current, voltage, wattage, and temperature while charging</string>
 
+    <!-- Screen rotation suggestion button -->
+    <string name="show_rotation_suggestions_title">Enable screen rotation suggestion button</string>
+    <string name="show_rotation_suggestions_summary">Show a floating button to rotate the screen when the device is tilted and auto-rotation is disabled</string>
+
+
 </resources>
