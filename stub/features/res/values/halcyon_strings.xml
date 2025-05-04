@@ -254,5 +254,8 @@
     <string name="show_rotation_suggestions_title">Enable screen rotation suggestion button</string>
     <string name="show_rotation_suggestions_summary">Show a floating button to rotate the screen when the device is tilted and auto-rotation is disabled</string>
 
+    <!-- Ongoing action progress bar chip -->
+    <string name="show_progress_bar_chip_title">Show ongoing action progress bar chip</string>
+    <string name="show_progress_bar_chip_summary">Display a progress bar chip for ongoing actions in the status bar</string>
 
 </resources>

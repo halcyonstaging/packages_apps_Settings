@@ -113,6 +113,12 @@
             android:summary="@string/network_traffic_state_summary"
             android:fragment="com.android.settings.halcyon.networktraffic.NetworkTrafficSettings" />
 
+        <com.android.settings.halcyon.preference.GlobalSettingSwitchPreference
+            android:key="window_ignore_secure"
+            android:title="@string/show_progress_bar_chip_title"
+            android:summary="@string/show_progress_bar_chip_summary"
+            android:defaultValue="false"/>
+
         <Preference
             android:key="icon_manager"
             android:title="@string/icon_manager_title"
