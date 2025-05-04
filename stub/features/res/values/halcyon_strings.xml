@@ -75,4 +75,9 @@
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 
+    <!-- Screen rotation suggestion button -->
+    <string name="show_rotation_suggestions_title">Enable screen rotation suggestion button</string>
+    <string name="show_rotation_suggestions_summary">Show a floating button to rotate the screen when the device is tilted and auto-rotation is disabled</string>
+
+
 </resources>

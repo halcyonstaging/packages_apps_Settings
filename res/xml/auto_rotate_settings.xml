@@ -55,6 +55,12 @@
         android:title="@string/auto_rotate_switch_face_based"
         settings:controller="com.android.settings.display.SmartAutoRotateController" />
 
+    <com.android.settings.halcyon.preference.SecureSettingSwitchPreference
+        android:key="show_rotation_suggestions"
+        android:title="@string/show_rotation_suggestions_title"
+        android:summary="@string/show_rotation_suggestions_summary"
+        android:defaultValue="true" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="auto_rotate_footer_preference"
         android:title="@string/smart_rotate_text_headline"
