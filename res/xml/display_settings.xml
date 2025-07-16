@@ -210,4 +210,16 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/experimental_category"
+        android:order="-75">
+
+        <com.android.settings.halcyon.preference.GlobalSettingSwitchPreference
+            android:key="disable_window_blurs"
+            android:title="@string/enable_window_blurs_title"
+            android:summary="@string/enable_window_blurs_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
